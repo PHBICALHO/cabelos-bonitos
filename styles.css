@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Rubik+Glitch&display=swap');
+
+body {
+  font-family: 'Rubik Glitch', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+  color: #000;
+}
+
+header {
+  background-color: #FF66C4;
+  padding: 20px;
+  text-align: center;
+  color: #FFF;
+}
+
+section {
+  padding: 20px;
+}
+
+.video-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: auto;
+}
+
+.bio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bio-text {
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #FF66C4;
+  padding: 20px;
+  text-align: center;
+  color: #FFF;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  font-family: 'Rubik Glitch', sans-serif;
+  background-color: #FF66C4;
+  color: #FFF;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.animate-btn {
+  display: inline-block;
+  text-decoration: none; /* Adiciona isso para remover a sublinhado padrão dos links */
+}
